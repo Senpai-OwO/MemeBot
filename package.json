@@ -1,0 +1,30 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "npm run lint && node tests/core/run.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "license": "ISC",
+  "author": "Bot Services",
+  "dependencies": {
+    "d.js-command-handler": "1.1.7",
+    "discord.js": "^11.4.2",
+    "node-fetch": "^2.3.0",
+    "roblox-js": "^4.0.4",
+    "ms": "2.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "jasmine": "^3.3.1",
+    "mocha": "^5.2.0",
+    "ndb": "^1.0.23"
+  }
+}
