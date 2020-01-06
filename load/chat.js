@@ -1,4 +1,4 @@
-const INTERVAL = 8640;
+const INTERVAL = 86;
 const CHANNEL = '662010475894145105';
 const MESSAGES = ['This bot is not finished.' 'Memes rule the world!' 'Hahaha']
 function sendMessage(channel) {
