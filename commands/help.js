@@ -8,7 +8,7 @@ module.exports = {
 				.setTitle('Meme Commands'),
 			description = '';
 		for (let command of call.commands)
-			description += `\`,${command[1].id}\` **->** ${command[1].desc}\2`;
+			description += `\`,${command[1].id}\` **->** ${command[1].desc}\n`;
 		helpEmbed.setDescription(description.trim());
 		call.message.author.send(helpEmbed)
 			.then(() => call.message.channel.send('Sent you a list of commands in your direct messages.'))
