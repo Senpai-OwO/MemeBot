@@ -5,7 +5,7 @@ module.exports = {
 	desc: 'Sends you a list of commands.',
 	exec: async (call) => {
 		let helpEmbed = new RichEmbed()
-				.setTitle('Commands'),
+				.setTitle('Meme Commands'),
 			description = '';
 		for (let command of call.commands)
 			description += `\`,${command[1].id}\` **->** ${command[1].desc}\n`;
