@@ -1,5 +1,5 @@
 module.exports = {
-	id: 'setavatar',
+        aliases: ['setavatar'],
 	exec: (call) => {
 		if (call.message.author.id === call.client.ownerID) {
 			let newAvatar = call.cut || (call.message.attachments.first() && call.message.attachments.first().url);
