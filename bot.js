@@ -7,7 +7,7 @@ const loaders = new Collection(fs.readdirSync('./load').map((n) => require(`./lo
 
 let client = new Client({ disableEveryone: true });
 
-client.ownerID = '541814741434236948'; 
+client.ownerID = '488194721101905921'; 
 client.ownerID = '581221446093897749';
 
 client.on('ready', () => {
