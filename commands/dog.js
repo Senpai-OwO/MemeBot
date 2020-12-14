@@ -17,7 +17,11 @@ module.exports = {
     'https://cdn.shopify.com/s/files/1/0198/9715/5646/products/white-wh_5000x.png?v=1602855688',
     'https://cdn.discordapp.com/attachments/784602237212295168/788167428408475648/Screenshot_2020-12-14_141401.png',
     'https://cdn.discordapp.com/attachments/787519438894530590/788167621187076176/image0.png',
-
+    'https://cdn.discordapp.com/attachments/788167512210014300/788167988581761092/20200904_164358.jpg',
+    'Look in the mirror.'
+    'https://cdn.discordapp.com/attachments/787519438894530590/788169510074449990/image0.jpg',
+    'https://cdn.discordapp.com/attachments/787519438894530590/788169510297010206/image1.jpg',
+    
 ];
        var randomNumber = Math.floor(Math.random()*textArray.length);
        call.message.reply(textArray[randomNumber])
