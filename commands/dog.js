@@ -11,16 +11,6 @@ module.exports = {
     'https://cdn.discordapp.com/attachments/784602237212295168/788162897913970688/th.png',
     'https://cdn.discordapp.com/attachments/784602237212295168/788163023733784636/th.png',
     'https://cdn.discordapp.com/attachments/771179572120125451/788162909800759347/image0.jpg',
-    'Most Certainly',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
 ];
        var randomNumber = Math.floor(Math.random()*textArray.length);
        call.message.reply(textArray[randomNumber])
