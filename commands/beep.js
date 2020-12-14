@@ -3,6 +3,6 @@ module.exports = {
 	aliases: ['bop'],
 	desc: 'Makes a little robot sound.',
 	exec: (call) => {
-		call.message.channel.send('Booooop!'), ('Beep!');
+		call.message.channel.send('Boop!');
 	}
 };
