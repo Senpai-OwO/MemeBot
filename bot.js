@@ -18,6 +18,6 @@ client.on('ready', () => {
 	console.log(client.user.username + ' has successfully booted up.');
 });
 
-handler(__dirname + '/commands', client, { customPrefix: '+' });
+handler(__dirname + '/commands', client, { customPrefix: ',' });
 
 client.login(token);
