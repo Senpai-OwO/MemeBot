@@ -8,7 +8,7 @@ module.exports = {
     'Possibly',
     'Unlikely'
 ];
-       var randomNumber = Math.floor(Math.random()*textArray.Length);
+       var randomNumber = Math.floor(Math.random()*textArray.length);
        call.message.reply(textArray[randomNumber])
 
 	}
