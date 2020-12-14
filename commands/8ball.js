@@ -20,7 +20,7 @@ module.exports = {
     'No',
     'No\!',
     'Absolutely not',
-    'Stop asking me I don't have all the answers I am only a maid'
+    'Stop asking me I don\'t have all the answers I am only a maid'
 ];
        var randomNumber = Math.floor(Math.random()*textArray.length);
        call.message.reply(textArray[randomNumber])
