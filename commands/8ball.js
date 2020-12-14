@@ -3,6 +3,12 @@ module.exports = {
 	aliases: ['8ball'],
 	desc: 'Ask the 8ball any question you want!',
 	exec: (call) => {
-		call.message.channel.send('This command is currently disabled.');
+		var textArray = [
+    'Perhaps',
+    'Possibly',
+    'Unlikely'
+];
+var randomNumber = Math.floor(Math.random()*textArray.length);
+
 	}
 };
