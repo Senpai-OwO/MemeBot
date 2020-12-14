@@ -9,6 +9,7 @@ module.exports = {
     'Unlikely',
     'Yes',
     'Yes!',
+    'Is quantum thermodynamics relevant?',
     'Absolutely',
     'Most Certainly',
     'It is likely',
@@ -19,6 +20,7 @@ module.exports = {
     'No',
     'No!',
     'Absolutely not',
+    'Stop asking me I don't have all the answers I am only a maid',
 ];
        var randomNumber = Math.floor(Math.random()*textArray.length);
        call.message.reply(textArray[randomNumber])
