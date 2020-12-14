@@ -1,5 +1,6 @@
 module.exports = {
-        aliases: ['setavatar'],
+	id: 'setavatar',
+	desc: 'Changes the avatar of the bot',
 	exec: (call) => {
 		if (call.message.author.id === call.client.ownerID) {
 			let newAvatar = call.cut || (call.message.attachments.first() && call.message.attachments.first().url);
