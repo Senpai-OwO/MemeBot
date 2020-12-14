@@ -3,6 +3,7 @@ module.exports = {
 	aliases: ['8ball'],
 	desc: 'Ask the 8ball any question you want!',
 	exec: (call) => {
+        call.message.reply(textArray[randomNumber])
 		var textArray = [
     'Perhaps',
     'Possibly',
