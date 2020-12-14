@@ -4,9 +4,13 @@ module.exports = {
 	desc: 'Ask the 8ball any question you want!',
 	exec: (call) => {
 		var textArray = [
-    'Perhaps',
-    'Possibly',
+    'Perhaps'
+    'Possibly'
     'Unlikely'
+    'Yes'
+    'I am unsure'
+    'I cannot say'
+    'It is not clear'
 ];
        var randomNumber = Math.floor(Math.random()*textArray.length);
        call.message.reply(textArray[randomNumber])
