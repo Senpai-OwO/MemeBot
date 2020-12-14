@@ -9,7 +9,7 @@ module.exports = {
     'Possibly',
     'Unlikely'
 ];
-var randomNumber = Math.floor(Math.random()*textArray.length);
+var randomNumber = Math.floor(Math.random()*textArray.Length);
 
 	}
 };
