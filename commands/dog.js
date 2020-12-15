@@ -18,7 +18,7 @@ module.exports = {
     'https://cdn.discordapp.com/attachments/784602237212295168/788167428408475648/Screenshot_2020-12-14_141401.png',
     'https://cdn.discordapp.com/attachments/787519438894530590/788167621187076176/image0.png',
     'https://cdn.discordapp.com/attachments/788167512210014300/788167988581761092/20200904_164358.jpg',
-    'Look in the mirror.'
+    'Look in the mirror.',
     'https://cdn.discordapp.com/attachments/787519438894530590/788169510074449990/image0.jpg',
     'https://cdn.discordapp.com/attachments/704148867913875477/788196268047597578/db2a77c98f3d95c8161d3f7aee85c7fa.png',
     'https://cdn.discordapp.com/attachments/771147863840784385/788179013410488330/image0.jpg',
