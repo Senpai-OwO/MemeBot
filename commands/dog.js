@@ -23,5 +23,3 @@ module.exports = {
                 }
             }
         }
-
-this is valid but wonky as shit
