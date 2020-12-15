@@ -12,8 +12,20 @@ var textArray = [
         textArray[2].src =  'https://cdn.discordapp.com/attachments/788162087142424597/788162138983104543/Screenshot_20201214-042907_Instagram.jpg',
 
 ];
-       var randomNumber = Math.floor(Math.random()*textArray.length);
-       call.message.reply(textArray[randomNumber]) 
+       function nextImage(element)
+{
+    var img = document.getElementById(element);
 
+    for(var i = 0; i < textArray.length;i++)
+    {
+        if(textArray[i].src == img.src) 
+        {
+            if(i === textArray.length){
+                document.getElementById(element).src = textArray[0].src;
+                break;
+            }
+            document.getElementById(element).src = textArray[i+1].src;
+            break;
+        }
+    }
 }
-};
