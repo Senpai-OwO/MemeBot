@@ -28,5 +28,5 @@ var textArray = [
        var randomNumber = Math.floor(Math.random()*textArray.length);
        call.message.reply(textArray[randomNumber]) 
 
-}
+        }
 };
