@@ -1,6 +1,6 @@
 module.exports = {
 id: 'dog',
-aliases: ['doggie'], ['dogz'], 
+aliases: ['doggie'], ['dogs'], 
 desc: 'Random picture of a dog',
 exec: (call) => {
         var textArray = [
