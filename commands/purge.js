@@ -1,5 +1,8 @@
-
-
+module.exports = {
+	id: 'purge',
+	aliases: ['clear'],
+	desc: 'Removes a certain amount of messages from the channel.',
+	exec: (call) => {
 exports.run = (client, msg, args) => {
     const logger = client.logger;
     console.log(args);
@@ -39,4 +42,5 @@ exports.run = (client, msg, args) => {
 
 
 				//msg.delete(3000)
+}
 }
