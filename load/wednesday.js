@@ -1,5 +1,5 @@
 const INTERVAL = 200;
-const CHANNEL = '571308380354904116';
+const CHANNEL = '571308380354904116/';
 // eslint-disable-next-line max-len
 const MESSAGES = ['It\'s Wednesday my dudes.']
 function sendMessage(channel) {
